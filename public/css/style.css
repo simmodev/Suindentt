@@ -1,0 +1,112 @@
+body{
+    margin-top: 64px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.95;
+
+}
+
+.navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 1.4rem;
+}
+
+#home-section{
+    background: url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 636px;
+}
+
+#home-section .dark-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0,0,0,0.7);
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+#home-section .card-form{
+    opacity: 0.9;
+}
+
+#home-section .fas{
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#about-section .info-header{
+    width: 65%;
+    margin: auto;
+    border-bottom: 2px #ddd solid;
+}
+
+#about-section .fas{
+    background: #333;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#about-section .img-fluid{
+    border: #008ed6 1px solid;
+}
+
+#owner-section .info-header{
+    padding-bottom: 10px;
+    width: 65%;
+    margin: auto;
+    border-bottom: 2px #ddd solid;
+}
+
+#owner-section img{
+    margin-top: -150px;
+    border: #008ed6 2px solid ;
+}
+
+#owner-section #owner-card{
+    margin-top: 130px;
+}
+
+
+
+#owner-section{
+    background: #FFFFFF;
+    border-top: 1px #ddd solid;
+    border-bottom: 2px #ddd solid;
+}
+
+#boxes-section{
+    border-bottom: 2px #ddd solid;
+}
+
+@media (max-width: 1200px) {
+    .mb-resp{
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
