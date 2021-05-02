@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="icon" href="{{ asset('/img/logo.png') }}" type="image/png"/>
     
-    <base href="http://suindent.herokuapp.com/public">
+    <base href="http://localhost/public">
 
 </head>
 <body data-spy="scroll" data-target="main-nav" >
