@@ -99,7 +99,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="{{ asset('img/01.jpg') }}" alt="" class="img-fluid mb-3 rounded">
+                        <img src="{{ secure_asset('img/01.jpg') }}" alt="" class="img-fluid mb-3 rounded">
                     </div>
                     <div class="col-lg-6">
                         <h3>Explore & Connect</h3>
@@ -146,7 +146,7 @@
                 <div class="col-lg-7 col-md-8 col-sm-12 m-auto">
                     <div class="card bg-light">
                         <div class="card-body">
-                            <img src="{{ asset('img/driss.jpg') }}" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <img src="{{ secure_asset('img/driss.jpg') }}" alt="" class="img-fluid rounded-circle w-50 mb-3">
                             <h3>Driss Suinta</h3>
                             <h5 class="text-muted">Le Fondateur</h5>
                             <p>Driss est un entrepreneur sur la cinquantaine avec 25 ans d'expérience dans le domaine dantaire.</p>
