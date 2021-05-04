@@ -6,10 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Suindent</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="icon" href="{{ asset('/img/logo.png') }}" type="image/png"/>
+    <link rel="icon" href="{{ secure_asset('/img/logo.png') }}" type="image/png"/>
     
     <base href="http://localhost/public">
 
@@ -18,7 +18,7 @@
 
     <div class="nav navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="main-nav">
         <div class="container">
-            <img class="mr-2" src="{{ asset('img/logo.png') }}" width="45" height="45" >
+            <img class="mr-2" src="{{ secure_asset('img/logo.png') }}" width="45" height="45" >
             <a href="" class="navbar-brand"><strong>SUINDENT</strong></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" >
                 <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,7 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ secure_asset('js/app.js') }}"></script>
 
     <script>
         $(document).click(function(event) {
