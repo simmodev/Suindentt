@@ -6,10 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Suindent</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="icon" href="{{ asset('/img/logo.png') }}" type="image/png"/>
+    <link rel="icon" href="{{ secure_asset('/img/logo.png') }}" type="image/png"/>
 
 </head>
 <body>
@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="col-12 border border-dark">
-            <h1 class="m-3 p-4 border border-secondary d-inline-block"><img class=" mr-2" src="{{ asset('img/logo.png') }}" width="60" height="60" >Suindent-Sarl</h1>
+            <h1 class="m-3 p-4 border border-secondary d-inline-block"><img class=" mr-2" src="{{ secure_asset('img/logo.png') }}" width="60" height="60" >Suindent-Sarl</h1>
             <h6>ville : Tiflet</h6>
             <h6>adress : N5 KISSARIAT HAY OULED CHRIFA AVENUE LA MARCHE VERTE.</h6>
             <h6>Numero : 0661936502</h6>
